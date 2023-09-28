@@ -33,7 +33,7 @@ Utilizando o vídeo da montanha russa e com as técnicas de detecção de cores 
    CÓDIGO COM RGB/BGR
 No primeiro código, a detecção da cor vermelha é realizada diretamente no espaço de cores RGB (BGR no OpenCV) dos frames do vídeo. Isso significa que a detecção é baseada nas intensidades dos canais Vermelho, Verde e Azul de cada pixel. No entanto, esse método pode ser sensível a variações na iluminação, sombras e outras condições que afetam os canais de cores RGB. Portanto, a precisão da detecção da cor vermelha pode ser afetada por esses fatores, tornando-o mais propenso a falsos positivos, como podemos perceber nos prints das imagens geradas.
 
-                            while True:
+                           while True:
                              ret, frame = video.read()
                              if ret:
                                  lower_red = np.array([0, 0, 100])       # Intervalos de cores vermelhas em BGR
@@ -53,7 +53,8 @@ No primeiro código, a detecção da cor vermelha é realizada diretamente no es
                              else:
                                  break  # Saia do loop
                            video.release()
-   
+
+                            
    CÓDIGO CONVERTIDO PARA HSV
 No segundo código, os frames do vídeo são convertidos para o espaço de cores HSV (Matiz-Saturação-Valor) antes da detecção da cor vermelha. No espaço de cores HSV, a detecção de cores é mais intuitiva, pois o matiz (Hue) representa diretamente a cor, independentemente do brilho. Isso torna o método menos sensível às variações na iluminação, tornando-o mais robusto em diferentes condições de iluminação. Além disso, o espaço de cores HSV é menos propenso a falsos positivos, tornando a detecção da cor vermelha mais precisa e confiável em uma variedade de cenários, como mostra os prints gerados.
 
