@@ -9,7 +9,7 @@ Utilizando o vídeo da montanha russa e com as técnicas de detecção de cores 
 
 
 
-   Para este trabalho foi criado dois códigos iguais, porém distintos na sua saída. abaixo estar os códigos desenvolvidos, onde as referencias estar em aulas de cursos passados, ministrados pelo professor Felipe da UFAM/ICET.
+   Para este trabalho foi criado dois códigos iguais, porém distintos na sua saída. abaixo estar os códigos desenvolvidos, onde as referencias estar em aulas de cursos passados, ministrados pelo professor Felipe da UFAM/ICET. link https://classroom.google.com/c/NDI3NTA1MzIwNTA3
     Resolução:
 
    Nesse momento foi importado as bibliotecas que iremos precisar, foi carregado o vídeo trabalhado por nome mont_russa.mp4 e por fim, criando e inicializado um contador, para representar a numeração do frame.
