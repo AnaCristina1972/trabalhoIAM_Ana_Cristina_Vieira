@@ -94,12 +94,12 @@ No segundo código, os frames do vídeo são convertidos para o espaço de cores
    
    Imagem RGB
 
-https://github.com/AnaCristina1972/trabalhoIAM_Ana_Cristina_Vieira/blob/main/imagemRGB.png
+![IMagem RGB](https://github.com/AnaCristina1972/trabalhoIAM_Ana_Cristina_Vieira/blob/main/imagemRGB.png)
 
 
 
 Imagem HSV
-https://github.com/AnaCristina1972/trabalhoIAM_Ana_Cristina_Vieira/blob/main/imagemHSV.png
+![Imagem HSV](https://github.com/AnaCristina1972/trabalhoIAM_Ana_Cristina_Vieira/blob/main/imagemHSV.png)
 
 
 
